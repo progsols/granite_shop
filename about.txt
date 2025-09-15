@@ -1,0 +1,31 @@
+### Project Description: Granite Elegance Website
+
+**Overview**:  
+Granite Elegance is a modern, fully responsive website built for a granite company to serve as a digital showroom, showcasing premium granite slabs, tiles, countertops, and custom designs. Designed with a clean, professional aesthetic, the site emphasizes crisp lines, generous white space, and high-quality imagery to let the stone's natural beauty shine. It integrates a user-friendly admin panel for easy content management, ensuring the client can update products and gallery images effortlessly.
+
+**Key Features**:  
+- **Homepage**: Features a striking hero banner with a call-to-action, a teaser of featured products, a gallery preview, and client testimonials, creating an inviting first impression.  
+- **Products Section**: A categorized, filterable grid (slabs, tiles, countertops, custom designs) displays product details (name, description, price, image) pulled dynamically from a MySQL database, ensuring easy updates.  
+- **Gallery**: A responsive masonry layout showcases high-resolution photos of completed projects, optimized with lazy loading for fast mobile performance.  
+- **Contact Page**: Includes a secure inquiry form with hCaptcha spam protection, a clickable phone link, and an embedded Google Map for seamless customer interaction.  
+- **About Us**: A concise page highlighting the company’s 20+ years of expertise and commitment to quality craftsmanship.  
+- **Admin Panel**: A secure, intuitive backend allows the client to add, edit, and delete products and gallery items. Features a clean, Bootstrap-based interface with image upload capabilities and responsive tables.  
+- **SEO Optimization**: Implements semantic HTML, meta tags, alt text, and clean URLs to support basic on-page SEO, ensuring better search engine visibility.  
+- **Responsive Design**: Built with Bootstrap 5, the site adapts seamlessly across devices, from desktops to mobiles, with fast load times and optimized imagery.  
+
+**Technical Details**:  
+- **Frontend**: Developed using PHP, Bootstrap 5 (CDN), and custom CSS (`style.css` for front-end, `admin.css` for backend). The design uses Roboto typography and a warm orange (#e67e22) and dark navy (#2c3e50) color scheme to complement granite’s aesthetic.  
+- **Backend**: Powered by PHP 8+ and MySQL, with a database (`granite_db`) managing products, gallery items, and testimonials. Prepared statements ensure security, and PHPMailer handles contact form emails.  
+- **Admin Access**: A secure login system (default: admin/admin123, recommended to update) provides full control over content. The admin panel supports CRUD operations for products and gallery items, with image uploads stored in `/images/`.  
+- **Deployment**: Hosted on XAMPP (`/opt/lampp/htdocs/granite`), with recommended permissions (755 for directories, 644 for files). Includes a hand-off guide for self-management (updating products, gallery, and SEO metadata).  
+- **Testing**: Contact form tested with spam protection, all links verified, and mobile responsiveness confirmed via browser dev tools.  
+
+**Deliverables**:  
+- Fully functional, responsive website with PHP/MySQL backend.  
+- Admin panel for managing products and gallery images.  
+- SEO-friendly structure with metadata.  
+- Hand-off guide for content updates.  
+- Tested contact form with spam protection and Google Maps integration.  
+
+**Purpose**:  
+The Granite Elegance website delivers a polished digital presence that showcases the company’s high-quality stone products while providing an intuitive platform for customers to explore offerings and connect with the business. The admin panel empowers the client to maintain and update content independently, ensuring long-term flexibility and ease of use.
